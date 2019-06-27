@@ -10,7 +10,8 @@ class FrontPage extends React.Component {
             color: "#cfeccc",
             textAlign: 'center',
             position: 'relative',
-            top: '35%'
+            top: '35%',
+            fontSize: 40,
           }}
         >
           Hi! My name is Majiyd and i'm a developer
