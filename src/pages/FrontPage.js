@@ -1,10 +1,12 @@
 import React from 'react'
+import {Star} from '../components/star';
 
 class FrontPage extends React.Component {
   
   render() {
     return (
       <div className="frontPage">
+        <Star />
         <div className='overlay'>  
           <h1
             style={{
