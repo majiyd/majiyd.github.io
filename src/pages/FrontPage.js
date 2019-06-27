@@ -4,10 +4,11 @@ import {Star} from '../components/star';
 class FrontPage extends React.Component {
   
   render() {
+    let stars = Array.apply(null, {length: 100}).map(Number.call, Number)
     return (
       <div className="frontPage">
-        <Star />
-        <div className='overlay'>  
+        {stars.map(star => (<Star key={star}/>))}
+        <div className='overlay'>   
           <h1
             style={{
               color: "white",
