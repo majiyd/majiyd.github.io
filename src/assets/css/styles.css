@@ -6,6 +6,7 @@
 body{
   font-family: 'Palanquin', sans-serif;
   overflow: hidden;
+  color: #fff;
 }
 .frontPage{
   height: 100vh;

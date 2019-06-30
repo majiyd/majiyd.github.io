@@ -1,20 +1,20 @@
 import React from 'react'
 import {Star} from '../components/star';
+import {Header} from '../components/Header'
 
 class FrontPage extends React.Component {
-  
   render() {
     let stars = Array.apply(null, {length: 100}).map(Number.call, Number)
     return (
       <div className="frontPage">
         {stars.map(star => (<Star key={star}/>))}
-        <div className='overlay'>   
+        <div className='overlay'>
+          <Header />
           <h1
             style={{
-              color: "white",
               textAlign: 'center',
               position: 'relative',
-              top: '35%',
+              top: '18%',
               fontSize: 40,
               fontWeight: '400'
             }}
