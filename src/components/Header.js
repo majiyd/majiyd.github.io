@@ -2,7 +2,7 @@ import React from 'react'
 
 export function Header(props){
   let style = {
-    margin: 50,
+    margin: 40,
     lineHeight: 1.5,
     fontSize: '13pt',
     fontFamily: 'segoe ui',
@@ -11,7 +11,7 @@ export function Header(props){
   return(
     <div style={style}>
       <p><strong>Suleiman Abdulmajeed</strong> </p>
-      <p>Software Developer & Programmer</p>
+      <p>Developer & Programmer</p>
     </div>
   )
 }
